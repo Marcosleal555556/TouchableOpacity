@@ -1,11 +1,24 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-
+import Fundo from './src/components/FundoComponent';
+import Img from './src/components/ImgButtonComponent';
+import Login from './src/components/LoginComponent';
+import Singin
+ from './src/components/SingIn Component';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Fundo>
+<Img />
+<Login />
+<Singin />
+
+
+
+
+
+
+   </Fundo>
     </View>
   );
 }
