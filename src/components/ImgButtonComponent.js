@@ -10,7 +10,7 @@ export default function Img() {
 style={styles.touch}
 onPress={() => alert("Foto clicada!(TouchableOpacity)")}>
 
-<Image source={require('../Imagens/login.jpeg')} resizeMode='contain' style={{ height: 10, width: 100 }} />
+<Image source={require('../Imagens/login.jpeg')} resizeMode='contain' style={{ height: 100, width: 100 }} />
     </TouchableOpacity>
 
 

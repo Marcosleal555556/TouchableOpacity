@@ -10,7 +10,7 @@ export default function Login() {
 style={styles.touch}
 onPress={() => alert("Login Efetuado(TouchableOpacity)")}>
 
-<Text >Efetuar Login</Text>
+<Text style={{ fontSize: 100, backgroundColor: 'green', color: 'white' }} >Efetuar Login</Text>
     </TouchableOpacity>
 
 

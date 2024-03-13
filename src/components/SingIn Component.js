@@ -10,7 +10,7 @@ export default function Singin() {
 style={styles.touch}
 onPress={() => alert("Sing In(TouchableOpacity)")}>
 
-<Text >Efetuar SingIn</Text>
+<Text style={{ fontSize: 50, backgroundColor: 'purple', color: 'black' }} >Efetuar SingIn</Text>
     </TouchableOpacity>
 
 
