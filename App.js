@@ -4,6 +4,7 @@ import Fundo from "./src/components/FundoComponent";
 import Img from "./src/components/ImgButtonComponent";
 import Login from "./src/components/LoginComponent";
 import Singin from "./src/components/SingIn Component";
+import MyComponent from "./src/components/props";
 export default function App() {
   return (
     <View style={styles.container}>
@@ -11,6 +12,7 @@ export default function App() {
         <Img />
         <Login />
         <Singin />
+        <MyComponent title="Insira um Título" description="Descrição" />
       </Fundo>
     </View>
   );
